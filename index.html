@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="age-contain">
+        <div class="day">
+          <label class="oke" for="day">Day</label>
+          <input id="day-input" type="text" placeholder="DD" />
+        </div>
+        <div class="month">
+          <label class="oke" for="month"> Month</label>
+          <input id="month-input" type="text" placeholder="MM" />
+        </div>
+        <div class="years">
+          <label class="oke" for="year">Year</label>
+          <input id="year-input" type="text" placeholder="YY" />
+        </div>
+      </div>
+      <div class="icon" id="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+          <g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" /></g>
+        </svg>
+      </div>
+      <div class="display">
+        <span><span id="dis-years">-- </span>years</span>
+
+        <span><span id="dis-months">--</span>months</span>
+
+        <span><span id="dis-days">-- </span>days</span>
+      </div>
+    </div>
+
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Saiful Islam</a>.</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
